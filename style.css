@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@200;300;400;600&display=swap');
+*
+{
+    margin: 0;
+    border: none;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #feca69, #ffc7a6, #ffd5e1, #ffecff, #ffffff);
+    background-repeat: no-repeat;
+}
+/*-------------------------headersection--------------------------*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.menu
+{
+    margin-right: 5rem;
+    width: 25%;
+    padding-top: 2rem;
+}
+.items
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu a,li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    opacity: .6;
+    font-weight: 700;
+}
+.menu a,li:hover
+{
+    opacity: 1;
+}
+#logo
+{
+    width: 40px;
+    margin-left: 5rem;
+}
+/*-----------------------Banner----------------------*/
+.banner
+{
+    
+    padding-left: 3%;
+    width: 100%;
+    background-image: url('assets/banner-image.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+
+    
+}
+#banner-img
+{
+    
+    text-align: right;
+}
+h1
+{
+    padding: 1.5rem;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Patua One', cursive;
+}
+.banner p
+{
+    font-size: 16px;
+    font-weight: 400;
+    width: 35%;
+    padding-left: 1.5rem;
+}
+#Button-1
+{
+    padding:.5rem 3rem;
+    margin: 1rem 1.5rem;
+    background-color: tomato;
+    border-radius: 40px;
+    
+    color: white;
+    font-weight: 700;
+}
+
+#Button-1:hover
+{
+    color: tomato;
+    background-color: white;
+}
+
+/*-----------------------Grid layout----------------------------*/
+
+.grid-container
+{
+    margin: 2rem auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    width: 50%;
+}
+.grid-container >*
+{
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 15px;
+
+    vertical-align: middle;
+}
+.grid-container  :hover
+{
+    background-color: rgba(255, 255, 255, 1);
+}
+.grid-container p
+{
+    font-size: 12px;
+}
+.apple
+{
+    display: block;
+}
+.text
+{
+    margin: auto 1rem;
+}
+#apple-img
+{
+    width: 50%;
+}
+
+.kiwi
+{
+    display: block;
+    grid-column: 3/4;
+    grid-row: -3/-2;
+}
+.kiwi p
+{
+    margin-bottom: 1rem;
+}
+#kiwi-img
+{
+    width: 100%;
+}
+
+.orange
+{
+    display: block;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#orange-img
+{
+    width: 80%;
+}
+.strawberry
+{
+    display: block;
+    grid-column: 3/4;
+    grid-row: -4/-3;
+}
+#strawberry-img
+{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.offer-banner
+{
+    grid-row: span 2;
+}
+.offer-banner h1
+{
+    font-size: 30px;
+    text-align: center;
+}
+.offer-banner p
+{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.offer-banner h4
+{
+    color: red;
+    text-align: center;
+    margin: auto;
+    padding: 1rem 0;
+}
+#tc
+{
+    text-align: center;
+    opacity: .7;
+}
+
+#offer
+{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    text-align:2center;
+}
+.button-2
+{
+    padding: .5rem 2rem;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
