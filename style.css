@@ -12,6 +12,7 @@ body
     background-image: linear-gradient(to right bottom, #feca69, #ffc7a6, #ffd5e1, #ffecff, #ffffff);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 button:hover
 {
