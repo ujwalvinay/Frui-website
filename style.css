@@ -412,3 +412,36 @@ hr
 {
     width: 100%;
 }
+
+/*-----------------Footer-----------------------------*/
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+    padding: 1rem 5rem;
+
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+footer hr
+{
+    width: 50%;
+    padding-bottom: 1rem;
+}
+.brand-id
+{
+    display: flex;
+    padding-bottom: 2rem;
+}
+#logo-footer
+{
+    width: 10%;
+    padding-right: 1rem;
+}
+footer h2
+{
+    vertical-align: middle;
+    font-size: 25px;
+}
